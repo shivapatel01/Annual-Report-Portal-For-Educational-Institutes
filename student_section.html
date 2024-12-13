@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Section - CS Department</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        body {
+            background-color: #f7f7fc; 
+        }
+        .card {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mx-auto p-5">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-blue-600">Student Section</h1>
+            <p class="text-xl text-gray-700">Resources and information for our students.</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="card">
+                <h2 class="text-2xl font-semibold">Course Materials</h2>
+                <p class="text-gray-600">Access lecture notes, assignments, and additional resources.</p>
+                <a href="course-materials.html" class="text-blue-500 mt-2 inline-block">View Materials</a>
+            </div>
+            <div class="card">
+                <h2 class="text-2xl font-semibold">Student Handbook</h2>
+                <p class="text-gray-600">A guide to policies, procedures, and student services.</p>
+                <a href="student-handbook.pdf" class="text-blue-500 mt-2 inline-block">Read Handbook</a>
+            </div>
+            <div class="card">
+                <h2 class="text-2xl font-semibold">Academic Calendar</h2>
+                <p class="text-gray-600">Stay updated on important dates and deadlines.</p>
+                <a href="calendar.html" class="text-blue-500 mt-2 inline-block">View Calendar</a>
+            </div>
+            <div class="card">
+                <h2 class="text-2xl font-semibold">Career Services</h2>
+                <p class="text-gray-600">Explore internship and job opportunities.</p>
+                <a href="career-services.html" class="text-blue-500 mt-2 inline-block">Find Jobs</a>
+            </div>
+            <div class="card">
+                <h2 class="text-2xl font-semibold">Student Organizations</h2>
+                <p class="text-gray-600">Join clubs and organizations to enhance your college experience.</p>
+                <a href="student-organizations.html" class="text-blue-500 mt-2 inline-block">Join Now</a>
+            </div>
+            <div class="card">
+                <h2 class="text-2xl font-semibold">Contact Advisors</h2>
+                <p class="text-gray-600">Get in touch with academic advisors for guidance.</p>
+                <a href="advisors.html" class="text-blue-500 mt-2 inline-block">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Department</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .background-image {
+            position: relative;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black; /* Changed text color to black */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid border-gray-600">
+        <nav class="flex justify-between px-20 bg-blue-600 text-3xl p-5 text-white">
+            <div>
+                <a href="#" class="navbar-item">
+                    CS Department
+                </a>
+            </div>
+            <div class="flex gap-10">
+                <a href="events.html" class="navbar-item"> 
+                    Events
+                </a>
+                <a href="projects.html" class="navbar-item">
+                    Projects
+                </a>
+                <a href="student_section.html" class="navbar-item">
+                    Student Section
+                </a>
+                <a href="teachers.html" class="navbar-item"> <!-- Added Teacher link -->
+                    Teachers
+                </a>
+            </div>
+        </nav>
+        
+        <div class="background-image">
+            <img src="image/1487742869b1.jpg" alt="" class="h-[90vh] w-[100%]">
+            <div class="overlay-text">
+                <h1 class="text-5xl font-bold">Welcome to the CS Department</h1>
+                <p class="mt-4 text-xl">Empowering the next generation of tech leaders.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
